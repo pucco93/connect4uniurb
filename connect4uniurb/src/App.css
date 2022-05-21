@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  user-select: none;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  font-size: 40px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Game {
+  margin: 50px 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #5689db;
+  border: 1px solid #5689db;
+  border-radius: 3px;
+  display: inline-block;
+  color: #FFF;
+  font-size: 12pt;
+  padding: 7px 28px;
+  text-decoration: none;
+  margin: 5px;
+  transition: all 0.3s;
+  max-width: 160px;
+  min-width: 160px;
+}
+
+/* .newGameButton {
+  transition: all 0.3s;
+} */
+
+button:hover {
+  background-color: lightblue;
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+.Board {
+  display: flex;
+  overflow: hidden;
+}
+
+.Slat {}
+
+.Hole {
+  padding: 10px;
+  margin: 1px;
+  min-width: 30px;
+  min-height: 30px;
+  border: 1px solid lightblue;
+}
+
+.Hole div {
+  position: relative;
+  min-width: 60px;
+  min-height: 60px;
+  border-radius: 4px;
+  top: -1000px;
+  transition: transform 0.5s;
+}
+
+.Hole img {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  top: -1000px;
+  transition: transform 0.5s;
+}
+
+.Red {
+  background-color: #FF456C;
+  transform: translateY(1000px);
+}
+
+.Blue {
+  background-color: #2CC5FF;
+  transform: translateY(1000px);
+}
+
+.winnerMessage {
+  margin: 20px;
+  font-size: 0pt;
+  font: 12pt;
+  opacity: 0;
+  transition: all 0.5s cubic-bezier(0.18, 0.99, 0.8, 1.17);
+}
+
+.appear {
+  opacity: 1;
+  font-size: 20pt;
+}
+
+.Rick {
+  transform: translateY(1000px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.Morty {
+  transform: translateY(1000px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

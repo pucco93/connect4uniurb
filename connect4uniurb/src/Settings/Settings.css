@@ -1,0 +1,33 @@
+.settings {
+    margin: 10px;
+}
+
+.useSkinsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.useSkinsLabel {
+    margin-right: 10px;
+}
+
+.skinsContainer {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mortyContainer {
+    margin-right: 40px;
+}
+
+.rickContainer {
+
+}
+
+.selectedImage {
+    width: 150px;
+    height: 150px;
+}
